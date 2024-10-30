@@ -1,5 +1,5 @@
 // database-module.js
-import { db } from './firebase-config.js'; // Asegúrate de que la ruta sea correcta
+import { db } from './firebase-config.js'; 
 import { collection, addDoc } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js";
 
 const addPerson = async (personData) => {

@@ -1,5 +1,4 @@
-// form-module.js
-import { addPerson } from './database-module.js'; // Asegúrate de que la ruta sea correcta
+import { addPerson } from './database-module.js'; 
 
 const form = document.getElementById('registroForm');
 

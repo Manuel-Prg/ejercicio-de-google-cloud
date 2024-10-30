@@ -1,7 +1,7 @@
 
 import { db } from './firebase-config.js'; // Importar db
-import * as formModule from './form-module.js'; // Asegúrate de que estás importando correctamente el módulo del formulario
-import * as databasemodule from './database-module.js'; // Asegúrate de que estás importando correctamente el módulo de la base de datos
+import * as formModule from './form-module.js';
+import * as databasemodule from './database-module.js'; 
 console.log('Iniciando aplicación...');
 
 document.addEventListener('DOMContentLoaded', function() {
